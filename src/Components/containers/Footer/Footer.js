@@ -6,19 +6,15 @@ import './Footer.scss';
 function Footer() {
 	return (
 		<div className="footer">
-			<Link to="/termsAndConditions" className="footer-button">
-				Terms of Service
+			<Link to="/" className="footer-button">
+				
 			</Link>
-			<Link to="/privacyPolicy" className="footer-button">
-				Privacy Policy
+			<Link to="/" className="footer-button">
+				
 			</Link>
-			<span>@2023 GetTam</span>
+			<span></span>
 			<div className="footer-links">
-				<a href="https://GitHub.com/nekumelon/GetTam-React">
-					<FontAwesomeIcon
-						className="footer-button"
-						icon={faGithub}
-					/>
+				<a href="">
 				</a>
 			</div>
 		</div>
